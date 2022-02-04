@@ -1,0 +1,29 @@
+# Virtual environments
+.venv*/
+
+# Sphinx documentation
+docs/build/
+docs/make.bat
+docs/Makefile
+
+# Python cached sources
+__pycache__/
+*.pyc
+
+# Visual Studio Code-generated files
+.settings/
+.project
+.vscode/
+.vs/
+
+# Setuptools/twine-generated files, compiled sources.
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.so
+*.o
+*.pyd
+
+# Secrets
+.pypirc
